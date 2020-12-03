@@ -1,0 +1,45 @@
+  *{margin:2px;padding:0;}
+body{background: url(sampu.jpg.jpg) no-repeat center center fixed;
+    -webkit-background-size : cover ;
+    background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+font-family: sans-serif;
+   
+}
+.form-container {     
+
+position: absolute;
+top:40%;
+left: 50%;
+    transform: translate( -70%, -50%);
+    width: 300px;
+    height: 3px;
+    box-sizing:box;
+margin:auto;
+transition: 5s;
+}
+ul.list{
+list-style-type: none;
+text-align: center;
+}
+ul.list li{width: 250px;
+    margin-bottom: 20px;
+}
+ul.list li input{
+    width: 300px;
+    text-align: center;
+    padding: 10px 0px ;
+    border-radius: 100%;   
+    border-radius: 59px;
+    background-color: rgba(13, 211, 73, 0.4);
+}
+ul.list li input [type= "button"]{
+color:rgba(13, 211, 73, 0.4);
+float: right;
+}
+
+
+
+
+ 
